@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Main Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="POIMainInterfaceController" customModule="PlacesOfInterest_WatchKit_Extension">
+                    <items>
+                        <label width="1" height="0.20000000000000001" alignment="left" text="Points of Interest" textAlignment="center" id="Wv1-Xb-hPd"/>
+                        <group width="1" height="0.40000000000000002" alignment="left" id="gth-jT-b3K">
+                            <items>
+                                <button alignment="left" id="3fz-ta-SsI">
+                                    <group key="contentGroup" width="0.5" height="1" alignment="left" id="vfB-sp-ilu">
+                                        <items>
+                                            <imageView width="1" height="1" alignment="left" id="qYw-5f-ODu">
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </imageView>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <action selector="poiButton1Pressed" destination="AgC-eL-Hgc" id="VtV-Df-gX8"/>
+                                    </connections>
+                                </button>
+                                <button alignment="left" id="pgJ-dU-t56">
+                                    <group key="contentGroup" width="0.5" height="1" alignment="left" id="kQ5-CZ-pza">
+                                        <items>
+                                            <imageView width="1" height="1" alignment="left" id="LPt-vN-t8d">
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </imageView>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <action selector="poiButton2Pressed" destination="AgC-eL-Hgc" id="EpZ-f2-S1T"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.40000000000000002" alignment="left" id="Xfp-zv-BfG">
+                            <items>
+                                <button alignment="left" id="UgI-XO-6Or">
+                                    <group key="contentGroup" width="0.5" height="1" alignment="left" id="OG3-7W-SMK">
+                                        <items>
+                                            <imageView width="1" height="1" alignment="left" id="v7f-La-Fo9">
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </imageView>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <action selector="poiButton3Pressed" destination="AgC-eL-Hgc" id="4oQ-NH-U6U"/>
+                                    </connections>
+                                </button>
+                                <button alignment="left" id="kqE-hW-YYL">
+                                    <group key="contentGroup" width="0.5" height="1" alignment="left" id="wtE-Fn-UIv">
+                                        <items>
+                                            <imageView width="1" height="1" alignment="left" id="Ape-1w-dRh">
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </imageView>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <action selector="poiButton4Pressed" destination="AgC-eL-Hgc" id="iyq-Wr-giR"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="poiImage1" destination="qYw-5f-ODu" id="Dbh-rg-UpX"/>
+                        <outlet property="poiImage2" destination="LPt-vN-t8d" id="tVF-Nf-Ill"/>
+                        <outlet property="poiImage3" destination="v7f-La-Fo9" id="1Hf-Ov-EXL"/>
+                        <outlet property="poiImage4" destination="Ape-1w-dRh" id="Gl7-mT-cve"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--POIMapInterfaceController-->
+        <scene sceneID="12Z-hf-zh9">
+            <objects>
+                <controller identifier="POIMapInterfaceController" id="1G7-eU-d3w" customClass="POIMapInterfaceController" customModule="PlacesOfInterest_WatchKit_Extension">
+                    <items>
+                        <group width="1" height="0.20000000000000001" alignment="left" id="Avo-ic-FzP">
+                            <items>
+                                <label width="0.80000000000000004" height="1" alignment="left" text="loading..." textAlignment="center" numberOfLines="2" id="Zla-BN-6Kd">
+                                    <fontDescription key="font" type="system" pointSize="12"/>
+                                </label>
+                                <button alignment="left" id="wvn-e6-k8a">
+                                    <group key="contentGroup" width="1" height="1" alignment="left" id="egR-2q-RnW">
+                                        <items>
+                                            <imageView width="1" height="1" alignment="left" image="nav_arrow" id="QIc-PD-sPi">
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </imageView>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <action selector="openLocationOnPhone" destination="1G7-eU-d3w" id="Vi1-eF-dsx"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <map width="1" height="0.80000000000000004" alignment="left" id="SG6-ye-loN"/>
+                    </items>
+                    <connections>
+                        <outlet property="nearestPOILabel" destination="Zla-BN-6Kd" id="CH4-hI-Mrn"/>
+                        <outlet property="nearestPOIMap" destination="SG6-ye-loN" id="d8u-Bf-t3v"/>
+                        <outlet property="openInAppleMapsButton" destination="wvn-e6-k8a" id="OFP-1j-w10"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="444" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="PlacesOfInterest_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>

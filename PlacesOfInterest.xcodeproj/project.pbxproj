@@ -1,0 +1,891 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A952444C1AE0C95200AE34C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A952444B1AE0C95200AE34C8 /* AppDelegate.swift */; };
+		A952444E1AE0C95200AE34C8 /* POIMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A952444D1AE0C95200AE34C8 /* POIMainViewController.swift */; };
+		A95244511AE0C95200AE34C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A952444F1AE0C95200AE34C8 /* Main.storyboard */; };
+		A95244531AE0C95200AE34C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95244521AE0C95200AE34C8 /* Images.xcassets */; };
+		A95244561AE0C95200AE34C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A95244541AE0C95200AE34C8 /* LaunchScreen.xib */; };
+		A95244621AE0C95200AE34C8 /* PlacesOfInterestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95244611AE0C95200AE34C8 /* PlacesOfInterestTests.swift */; };
+		A9FC44881AE1ED65009C5144 /* POISelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC44871AE1ED65009C5144 /* POISelectViewController.swift */; };
+		A9FC448A1AE1ED77009C5144 /* POIMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC44891AE1ED77009C5144 /* POIMapViewController.swift */; };
+		A9FC448C1AE1EDB7009C5144 /* POICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC448B1AE1EDB7009C5144 /* POICollectionViewCell.swift */; };
+		A9FC448E1AE1EDDE009C5144 /* LocationFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC448D1AE1EDDE009C5144 /* LocationFinder.swift */; };
+		A9FC44901AE1EDEB009C5144 /* GooglePlacesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC448F1AE1EDEB009C5144 /* GooglePlacesClient.swift */; };
+		A9FC44921AE1EDFF009C5144 /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC44911AE1EDFF009C5144 /* GooglePlace.swift */; };
+		A9FC44941AE1F1DA009C5144 /* GooglePlaceConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC44931AE1F1DA009C5144 /* GooglePlaceConstants.swift */; };
+		A9FC44961AE1FB22009C5144 /* POIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC44951AE1FB22009C5144 /* POIManager.swift */; };
+		A9FC44981AE20D12009C5144 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = A9FC44971AE20D12009C5144 /* Images */; };
+		A9FC449D1AE217CD009C5144 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9FC449C1AE217CD009C5144 /* CoreLocation.framework */; };
+		A9FC44A81AE234FE009C5144 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC44A71AE234FE009C5144 /* InterfaceController.swift */; };
+		A9FC44AA1AE234FE009C5144 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC44A91AE234FE009C5144 /* NotificationController.swift */; };
+		A9FC44AC1AE234FE009C5144 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FC44AB1AE234FE009C5144 /* Images.xcassets */; };
+		A9FC44B01AE234FE009C5144 /* PlacesOfInterest WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = A9FC44AF1AE234FE009C5144 /* PlacesOfInterest WatchKit App.app */; };
+		A9FC44B81AE234FE009C5144 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FC44B61AE234FE009C5144 /* Interface.storyboard */; };
+		A9FC44BA1AE234FE009C5144 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FC44B91AE234FE009C5144 /* Images.xcassets */; };
+		A9FC44BD1AE234FE009C5144 /* PlacesOfInterest WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A9FC44A21AE234FE009C5144 /* PlacesOfInterest WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A9FC44C51AE2351C009C5144 /* POIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC44951AE1FB22009C5144 /* POIManager.swift */; };
+		A9FC44C61AE2351C009C5144 /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC44911AE1EDFF009C5144 /* GooglePlace.swift */; };
+		A9FC44C71AE2351C009C5144 /* GooglePlacesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC448F1AE1EDEB009C5144 /* GooglePlacesClient.swift */; };
+		A9FC44C81AE2351C009C5144 /* GooglePlaceConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC44931AE1F1DA009C5144 /* GooglePlaceConstants.swift */; };
+		A9FC44C91AE2351C009C5144 /* LocationFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC448D1AE1EDDE009C5144 /* LocationFinder.swift */; };
+		A9FC44DB1AE2382C009C5144 /* atm.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC44CD1AE2382C009C5144 /* atm.pdf */; };
+		A9FC44DC1AE2382C009C5144 /* bakery.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC44CE1AE2382C009C5144 /* bakery.pdf */; };
+		A9FC44DD1AE2382C009C5144 /* bar.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC44CF1AE2382C009C5144 /* bar.pdf */; };
+		A9FC44DE1AE2382C009C5144 /* cafe.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC44D01AE2382C009C5144 /* cafe.pdf */; };
+		A9FC44DF1AE2382C009C5144 /* campground.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC44D11AE2382C009C5144 /* campground.pdf */; };
+		A9FC44E01AE2382C009C5144 /* church.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC44D21AE2382C009C5144 /* church.pdf */; };
+		A9FC44E11AE2382C009C5144 /* gas_station.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC44D31AE2382C009C5144 /* gas_station.pdf */; };
+		A9FC44E21AE2382C009C5144 /* gym.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC44D41AE2382C009C5144 /* gym.pdf */; };
+		A9FC44E31AE2382C009C5144 /* hair_care.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC44D51AE2382C009C5144 /* hair_care.pdf */; };
+		A9FC44E41AE2382C009C5144 /* hospital.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC44D61AE2382C009C5144 /* hospital.pdf */; };
+		A9FC44E51AE2382C009C5144 /* nav_arrow.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC44D71AE2382C009C5144 /* nav_arrow.pdf */; };
+		A9FC44E61AE2382C009C5144 /* question.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC44D81AE2382C009C5144 /* question.pdf */; };
+		A9FC44E71AE2382C009C5144 /* restaurant.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC44D91AE2382C009C5144 /* restaurant.pdf */; };
+		A9FC44E81AE2382C009C5144 /* shopping_mall.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A9FC44DA1AE2382C009C5144 /* shopping_mall.pdf */; };
+		A9FC44EB1AE23A16009C5144 /* POIMainInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC44EA1AE23A16009C5144 /* POIMainInterfaceController.swift */; };
+		A9FC44ED1AE23A25009C5144 /* POIMapInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC44EC1AE23A25009C5144 /* POIMapInterfaceController.swift */; };
+		A9FC44F11AE24801009C5144 /* POIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC44F01AE24801009C5144 /* POIConstants.swift */; };
+		A9FC44F21AE24801009C5144 /* POIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC44F01AE24801009C5144 /* POIConstants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A952445C1AE0C95200AE34C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A952443E1AE0C95200AE34C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A95244451AE0C95200AE34C8;
+			remoteInfo = PlacesOfInterest;
+		};
+		A9FC44B11AE234FE009C5144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A952443E1AE0C95200AE34C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9FC44AE1AE234FE009C5144;
+			remoteInfo = "PlacesOfInterest WatchKit App";
+		};
+		A9FC44BB1AE234FE009C5144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A952443E1AE0C95200AE34C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9FC44A11AE234FE009C5144;
+			remoteInfo = "PlacesOfInterest WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A9FC44C41AE234FE009C5144 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A9FC44BD1AE234FE009C5144 /* PlacesOfInterest WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A95244461AE0C95200AE34C8 /* PlacesOfInterest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlacesOfInterest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A952444A1AE0C95200AE34C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A952444B1AE0C95200AE34C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A952444D1AE0C95200AE34C8 /* POIMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIMainViewController.swift; sourceTree = "<group>"; };
+		A95244501AE0C95200AE34C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A95244521AE0C95200AE34C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A95244551AE0C95200AE34C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A952445B1AE0C95200AE34C8 /* PlacesOfInterestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacesOfInterestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95244601AE0C95200AE34C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A95244611AE0C95200AE34C8 /* PlacesOfInterestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesOfInterestTests.swift; sourceTree = "<group>"; };
+		A9FC44871AE1ED65009C5144 /* POISelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POISelectViewController.swift; sourceTree = "<group>"; };
+		A9FC44891AE1ED77009C5144 /* POIMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POIMapViewController.swift; sourceTree = "<group>"; };
+		A9FC448B1AE1EDB7009C5144 /* POICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POICollectionViewCell.swift; sourceTree = "<group>"; };
+		A9FC448D1AE1EDDE009C5144 /* LocationFinder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationFinder.swift; sourceTree = "<group>"; };
+		A9FC448F1AE1EDEB009C5144 /* GooglePlacesClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlacesClient.swift; sourceTree = "<group>"; };
+		A9FC44911AE1EDFF009C5144 /* GooglePlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlace.swift; sourceTree = "<group>"; };
+		A9FC44931AE1F1DA009C5144 /* GooglePlaceConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglePlaceConstants.swift; sourceTree = "<group>"; };
+		A9FC44951AE1FB22009C5144 /* POIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POIManager.swift; sourceTree = "<group>"; };
+		A9FC44971AE20D12009C5144 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		A9FC449C1AE217CD009C5144 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A9FC44A21AE234FE009C5144 /* PlacesOfInterest WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PlacesOfInterest WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FC44A51AE234FE009C5144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FC44A61AE234FE009C5144 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A9FC44A71AE234FE009C5144 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A9FC44A91AE234FE009C5144 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A9FC44AB1AE234FE009C5144 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9FC44AF1AE234FE009C5144 /* PlacesOfInterest WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PlacesOfInterest WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FC44B51AE234FE009C5144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FC44B71AE234FE009C5144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A9FC44B91AE234FE009C5144 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9FC44CD1AE2382C009C5144 /* atm.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = atm.pdf; path = Images/atm.pdf; sourceTree = "<group>"; };
+		A9FC44CE1AE2382C009C5144 /* bakery.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = bakery.pdf; path = Images/bakery.pdf; sourceTree = "<group>"; };
+		A9FC44CF1AE2382C009C5144 /* bar.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = bar.pdf; path = Images/bar.pdf; sourceTree = "<group>"; };
+		A9FC44D01AE2382C009C5144 /* cafe.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = cafe.pdf; path = Images/cafe.pdf; sourceTree = "<group>"; };
+		A9FC44D11AE2382C009C5144 /* campground.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = campground.pdf; path = Images/campground.pdf; sourceTree = "<group>"; };
+		A9FC44D21AE2382C009C5144 /* church.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = church.pdf; path = Images/church.pdf; sourceTree = "<group>"; };
+		A9FC44D31AE2382C009C5144 /* gas_station.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = gas_station.pdf; path = Images/gas_station.pdf; sourceTree = "<group>"; };
+		A9FC44D41AE2382C009C5144 /* gym.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = gym.pdf; path = Images/gym.pdf; sourceTree = "<group>"; };
+		A9FC44D51AE2382C009C5144 /* hair_care.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = hair_care.pdf; path = Images/hair_care.pdf; sourceTree = "<group>"; };
+		A9FC44D61AE2382C009C5144 /* hospital.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = hospital.pdf; path = Images/hospital.pdf; sourceTree = "<group>"; };
+		A9FC44D71AE2382C009C5144 /* nav_arrow.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = nav_arrow.pdf; path = Images/nav_arrow.pdf; sourceTree = "<group>"; };
+		A9FC44D81AE2382C009C5144 /* question.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = question.pdf; path = Images/question.pdf; sourceTree = "<group>"; };
+		A9FC44D91AE2382C009C5144 /* restaurant.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = restaurant.pdf; path = Images/restaurant.pdf; sourceTree = "<group>"; };
+		A9FC44DA1AE2382C009C5144 /* shopping_mall.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = shopping_mall.pdf; path = Images/shopping_mall.pdf; sourceTree = "<group>"; };
+		A9FC44EA1AE23A16009C5144 /* POIMainInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POIMainInterfaceController.swift; sourceTree = "<group>"; };
+		A9FC44EC1AE23A25009C5144 /* POIMapInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POIMapInterfaceController.swift; sourceTree = "<group>"; };
+		A9FC44EE1AE23DD5009C5144 /* PlacesOfInterest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PlacesOfInterest.entitlements; sourceTree = "<group>"; };
+		A9FC44EF1AE23DEF009C5144 /* PlacesOfInterest WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PlacesOfInterest WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		A9FC44F01AE24801009C5144 /* POIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POIConstants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A95244431AE0C95200AE34C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FC449D1AE217CD009C5144 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95244581AE0C95200AE34C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FC449F1AE234FE009C5144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A952443D1AE0C95200AE34C8 = {
+			isa = PBXGroup;
+			children = (
+				A95244481AE0C95200AE34C8 /* PlacesOfInterest */,
+				A9FC44A31AE234FE009C5144 /* PlacesOfInterest WatchKit Extension */,
+				A9FC44B31AE234FE009C5144 /* PlacesOfInterest WatchKit App */,
+				A952445E1AE0C95200AE34C8 /* PlacesOfInterestTests */,
+				A9FC449B1AE217B8009C5144 /* Frameworks */,
+				A95244471AE0C95200AE34C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A95244471AE0C95200AE34C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A95244461AE0C95200AE34C8 /* PlacesOfInterest.app */,
+				A952445B1AE0C95200AE34C8 /* PlacesOfInterestTests.xctest */,
+				A9FC44A21AE234FE009C5144 /* PlacesOfInterest WatchKit Extension.appex */,
+				A9FC44AF1AE234FE009C5144 /* PlacesOfInterest WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A95244481AE0C95200AE34C8 /* PlacesOfInterest */ = {
+			isa = PBXGroup;
+			children = (
+				A952444B1AE0C95200AE34C8 /* AppDelegate.swift */,
+				A9E869DF1AE16C1F0060A7C5 /* Model */,
+				A9FC44861AE1ECD7009C5144 /* View */,
+				A9FC44851AE1ECCB009C5144 /* Controller */,
+				A95244491AE0C95200AE34C8 /* Supporting Files */,
+			);
+			path = PlacesOfInterest;
+			sourceTree = "<group>";
+		};
+		A95244491AE0C95200AE34C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A952444F1AE0C95200AE34C8 /* Main.storyboard */,
+				A95244541AE0C95200AE34C8 /* LaunchScreen.xib */,
+				A95244521AE0C95200AE34C8 /* Images.xcassets */,
+				A9FC44971AE20D12009C5144 /* Images */,
+				A952444A1AE0C95200AE34C8 /* Info.plist */,
+				A9FC44EE1AE23DD5009C5144 /* PlacesOfInterest.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A952445E1AE0C95200AE34C8 /* PlacesOfInterestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A95244611AE0C95200AE34C8 /* PlacesOfInterestTests.swift */,
+				A952445F1AE0C95200AE34C8 /* Supporting Files */,
+			);
+			path = PlacesOfInterestTests;
+			sourceTree = "<group>";
+		};
+		A952445F1AE0C95200AE34C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A95244601AE0C95200AE34C8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A97664A71AE16CAF00338A4A /* GooglePlacesClient */ = {
+			isa = PBXGroup;
+			children = (
+				A9FC44911AE1EDFF009C5144 /* GooglePlace.swift */,
+				A9FC448F1AE1EDEB009C5144 /* GooglePlacesClient.swift */,
+				A9FC44931AE1F1DA009C5144 /* GooglePlaceConstants.swift */,
+			);
+			name = GooglePlacesClient;
+			sourceTree = "<group>";
+		};
+		A9E869DF1AE16C1F0060A7C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9FC44951AE1FB22009C5144 /* POIManager.swift */,
+				A9FC44F01AE24801009C5144 /* POIConstants.swift */,
+				A97664A71AE16CAF00338A4A /* GooglePlacesClient */,
+				A9E869E01AE16C2B0060A7C5 /* LocationServices */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A9E869E01AE16C2B0060A7C5 /* LocationServices */ = {
+			isa = PBXGroup;
+			children = (
+				A9FC448D1AE1EDDE009C5144 /* LocationFinder.swift */,
+			);
+			name = LocationServices;
+			sourceTree = "<group>";
+		};
+		A9FC44851AE1ECCB009C5144 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A952444D1AE0C95200AE34C8 /* POIMainViewController.swift */,
+				A9FC44871AE1ED65009C5144 /* POISelectViewController.swift */,
+				A9FC44891AE1ED77009C5144 /* POIMapViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A9FC44861AE1ECD7009C5144 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9FC448B1AE1EDB7009C5144 /* POICollectionViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A9FC449B1AE217B8009C5144 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9FC449C1AE217CD009C5144 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			path = PlacesOfInterest;
+			sourceTree = "<group>";
+		};
+		A9FC44A31AE234FE009C5144 /* PlacesOfInterest WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A9FC44E91AE239EE009C5144 /* Controller */,
+				A9FC44A41AE234FE009C5144 /* Supporting Files */,
+			);
+			path = "PlacesOfInterest WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A9FC44A41AE234FE009C5144 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9FC44AB1AE234FE009C5144 /* Images.xcassets */,
+				A9FC44A51AE234FE009C5144 /* Info.plist */,
+				A9FC44A61AE234FE009C5144 /* PushNotificationPayload.apns */,
+				A9FC44EF1AE23DEF009C5144 /* PlacesOfInterest WatchKit Extension.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9FC44B31AE234FE009C5144 /* PlacesOfInterest WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A9FC44B61AE234FE009C5144 /* Interface.storyboard */,
+				A9FC44CC1AE237DE009C5144 /* Images */,
+				A9FC44B91AE234FE009C5144 /* Images.xcassets */,
+				A9FC44B51AE234FE009C5144 /* Info.plist */,
+			);
+			path = "PlacesOfInterest WatchKit App";
+			sourceTree = "<group>";
+		};
+		A9FC44CC1AE237DE009C5144 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A9FC44CD1AE2382C009C5144 /* atm.pdf */,
+				A9FC44CE1AE2382C009C5144 /* bakery.pdf */,
+				A9FC44CF1AE2382C009C5144 /* bar.pdf */,
+				A9FC44D01AE2382C009C5144 /* cafe.pdf */,
+				A9FC44D11AE2382C009C5144 /* campground.pdf */,
+				A9FC44D21AE2382C009C5144 /* church.pdf */,
+				A9FC44D31AE2382C009C5144 /* gas_station.pdf */,
+				A9FC44D41AE2382C009C5144 /* gym.pdf */,
+				A9FC44D51AE2382C009C5144 /* hair_care.pdf */,
+				A9FC44D61AE2382C009C5144 /* hospital.pdf */,
+				A9FC44D71AE2382C009C5144 /* nav_arrow.pdf */,
+				A9FC44D81AE2382C009C5144 /* question.pdf */,
+				A9FC44D91AE2382C009C5144 /* restaurant.pdf */,
+				A9FC44DA1AE2382C009C5144 /* shopping_mall.pdf */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A9FC44E91AE239EE009C5144 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A9FC44EA1AE23A16009C5144 /* POIMainInterfaceController.swift */,
+				A9FC44EC1AE23A25009C5144 /* POIMapInterfaceController.swift */,
+				A9FC44A71AE234FE009C5144 /* InterfaceController.swift */,
+				A9FC44A91AE234FE009C5144 /* NotificationController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A95244451AE0C95200AE34C8 /* PlacesOfInterest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95244651AE0C95200AE34C8 /* Build configuration list for PBXNativeTarget "PlacesOfInterest" */;
+			buildPhases = (
+				A95244421AE0C95200AE34C8 /* Sources */,
+				A95244431AE0C95200AE34C8 /* Frameworks */,
+				A95244441AE0C95200AE34C8 /* Resources */,
+				A9FC44C41AE234FE009C5144 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9FC44BC1AE234FE009C5144 /* PBXTargetDependency */,
+			);
+			name = PlacesOfInterest;
+			productName = PlacesOfInterest;
+			productReference = A95244461AE0C95200AE34C8 /* PlacesOfInterest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A952445A1AE0C95200AE34C8 /* PlacesOfInterestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95244681AE0C95200AE34C8 /* Build configuration list for PBXNativeTarget "PlacesOfInterestTests" */;
+			buildPhases = (
+				A95244571AE0C95200AE34C8 /* Sources */,
+				A95244581AE0C95200AE34C8 /* Frameworks */,
+				A95244591AE0C95200AE34C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A952445D1AE0C95200AE34C8 /* PBXTargetDependency */,
+			);
+			name = PlacesOfInterestTests;
+			productName = PlacesOfInterestTests;
+			productReference = A952445B1AE0C95200AE34C8 /* PlacesOfInterestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9FC44A11AE234FE009C5144 /* PlacesOfInterest WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FC44C31AE234FE009C5144 /* Build configuration list for PBXNativeTarget "PlacesOfInterest WatchKit Extension" */;
+			buildPhases = (
+				A9FC449E1AE234FE009C5144 /* Sources */,
+				A9FC449F1AE234FE009C5144 /* Frameworks */,
+				A9FC44A01AE234FE009C5144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9FC44B21AE234FE009C5144 /* PBXTargetDependency */,
+			);
+			name = "PlacesOfInterest WatchKit Extension";
+			productName = "PlacesOfInterest WatchKit Extension";
+			productReference = A9FC44A21AE234FE009C5144 /* PlacesOfInterest WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		A9FC44AE1AE234FE009C5144 /* PlacesOfInterest WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FC44C21AE234FE009C5144 /* Build configuration list for PBXNativeTarget "PlacesOfInterest WatchKit App" */;
+			buildPhases = (
+				A9FC44AD1AE234FE009C5144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PlacesOfInterest WatchKit App";
+			productName = "PlacesOfInterest WatchKit App";
+			productReference = A9FC44AF1AE234FE009C5144 /* PlacesOfInterest WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A952443E1AE0C95200AE34C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jarrod Parkes";
+				TargetAttributes = {
+					A95244451AE0C95200AE34C8 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 3Y3M3A69VC;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					A952445A1AE0C95200AE34C8 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A95244451AE0C95200AE34C8;
+					};
+					A9FC44A11AE234FE009C5144 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 3Y3M3A69VC;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					A9FC44AE1AE234FE009C5144 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = A95244411AE0C95200AE34C8 /* Build configuration list for PBXProject "PlacesOfInterest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A952443D1AE0C95200AE34C8;
+			productRefGroup = A95244471AE0C95200AE34C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A95244451AE0C95200AE34C8 /* PlacesOfInterest */,
+				A952445A1AE0C95200AE34C8 /* PlacesOfInterestTests */,
+				A9FC44A11AE234FE009C5144 /* PlacesOfInterest WatchKit Extension */,
+				A9FC44AE1AE234FE009C5144 /* PlacesOfInterest WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A95244441AE0C95200AE34C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FC44981AE20D12009C5144 /* Images in Resources */,
+				A95244511AE0C95200AE34C8 /* Main.storyboard in Resources */,
+				A95244561AE0C95200AE34C8 /* LaunchScreen.xib in Resources */,
+				A95244531AE0C95200AE34C8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95244591AE0C95200AE34C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FC44A01AE234FE009C5144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FC44AC1AE234FE009C5144 /* Images.xcassets in Resources */,
+				A9FC44B01AE234FE009C5144 /* PlacesOfInterest WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FC44AD1AE234FE009C5144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FC44E41AE2382C009C5144 /* hospital.pdf in Resources */,
+				A9FC44DC1AE2382C009C5144 /* bakery.pdf in Resources */,
+				A9FC44DF1AE2382C009C5144 /* campground.pdf in Resources */,
+				A9FC44E31AE2382C009C5144 /* hair_care.pdf in Resources */,
+				A9FC44DB1AE2382C009C5144 /* atm.pdf in Resources */,
+				A9FC44DD1AE2382C009C5144 /* bar.pdf in Resources */,
+				A9FC44E81AE2382C009C5144 /* shopping_mall.pdf in Resources */,
+				A9FC44E21AE2382C009C5144 /* gym.pdf in Resources */,
+				A9FC44B81AE234FE009C5144 /* Interface.storyboard in Resources */,
+				A9FC44BA1AE234FE009C5144 /* Images.xcassets in Resources */,
+				A9FC44DE1AE2382C009C5144 /* cafe.pdf in Resources */,
+				A9FC44E71AE2382C009C5144 /* restaurant.pdf in Resources */,
+				A9FC44E51AE2382C009C5144 /* nav_arrow.pdf in Resources */,
+				A9FC44E11AE2382C009C5144 /* gas_station.pdf in Resources */,
+				A9FC44E61AE2382C009C5144 /* question.pdf in Resources */,
+				A9FC44E01AE2382C009C5144 /* church.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A95244421AE0C95200AE34C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A952444E1AE0C95200AE34C8 /* POIMainViewController.swift in Sources */,
+				A9FC44941AE1F1DA009C5144 /* GooglePlaceConstants.swift in Sources */,
+				A9FC44881AE1ED65009C5144 /* POISelectViewController.swift in Sources */,
+				A9FC448A1AE1ED77009C5144 /* POIMapViewController.swift in Sources */,
+				A952444C1AE0C95200AE34C8 /* AppDelegate.swift in Sources */,
+				A9FC44901AE1EDEB009C5144 /* GooglePlacesClient.swift in Sources */,
+				A9FC44F11AE24801009C5144 /* POIConstants.swift in Sources */,
+				A9FC448E1AE1EDDE009C5144 /* LocationFinder.swift in Sources */,
+				A9FC44921AE1EDFF009C5144 /* GooglePlace.swift in Sources */,
+				A9FC44961AE1FB22009C5144 /* POIManager.swift in Sources */,
+				A9FC448C1AE1EDB7009C5144 /* POICollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A95244571AE0C95200AE34C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95244621AE0C95200AE34C8 /* PlacesOfInterestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FC449E1AE234FE009C5144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FC44F21AE24801009C5144 /* POIConstants.swift in Sources */,
+				A9FC44C51AE2351C009C5144 /* POIManager.swift in Sources */,
+				A9FC44C61AE2351C009C5144 /* GooglePlace.swift in Sources */,
+				A9FC44EB1AE23A16009C5144 /* POIMainInterfaceController.swift in Sources */,
+				A9FC44C71AE2351C009C5144 /* GooglePlacesClient.swift in Sources */,
+				A9FC44C81AE2351C009C5144 /* GooglePlaceConstants.swift in Sources */,
+				A9FC44C91AE2351C009C5144 /* LocationFinder.swift in Sources */,
+				A9FC44AA1AE234FE009C5144 /* NotificationController.swift in Sources */,
+				A9FC44ED1AE23A25009C5144 /* POIMapInterfaceController.swift in Sources */,
+				A9FC44A81AE234FE009C5144 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A952445D1AE0C95200AE34C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A95244451AE0C95200AE34C8 /* PlacesOfInterest */;
+			targetProxy = A952445C1AE0C95200AE34C8 /* PBXContainerItemProxy */;
+		};
+		A9FC44B21AE234FE009C5144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9FC44AE1AE234FE009C5144 /* PlacesOfInterest WatchKit App */;
+			targetProxy = A9FC44B11AE234FE009C5144 /* PBXContainerItemProxy */;
+		};
+		A9FC44BC1AE234FE009C5144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9FC44A11AE234FE009C5144 /* PlacesOfInterest WatchKit Extension */;
+			targetProxy = A9FC44BB1AE234FE009C5144 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A952444F1AE0C95200AE34C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A95244501AE0C95200AE34C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A95244541AE0C95200AE34C8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A95244551AE0C95200AE34C8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		A9FC44B61AE234FE009C5144 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9FC44B71AE234FE009C5144 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A95244631AE0C95200AE34C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A95244641AE0C95200AE34C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A95244661AE0C95200AE34C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PlacesOfInterest/PlacesOfInterest.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PlacesOfInterest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A95244671AE0C95200AE34C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PlacesOfInterest/PlacesOfInterest.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PlacesOfInterest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A95244691AE0C95200AE34C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlacesOfInterestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlacesOfInterest.app/PlacesOfInterest";
+			};
+			name = Debug;
+		};
+		A952446A1AE0C95200AE34C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlacesOfInterestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlacesOfInterest.app/PlacesOfInterest";
+			};
+			name = Release;
+		};
+		A9FC44BE1AE234FE009C5144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PlacesOfInterest WatchKit Extension/PlacesOfInterest WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PlacesOfInterest WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A9FC44BF1AE234FE009C5144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "PlacesOfInterest WatchKit Extension/PlacesOfInterest WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "PlacesOfInterest WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A9FC44C01AE234FE009C5144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = PlacesOfInterest_WatchKit_Extension;
+				INFOPLIST_FILE = "PlacesOfInterest WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		A9FC44C11AE234FE009C5144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = PlacesOfInterest_WatchKit_Extension;
+				INFOPLIST_FILE = "PlacesOfInterest WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A95244411AE0C95200AE34C8 /* Build configuration list for PBXProject "PlacesOfInterest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95244631AE0C95200AE34C8 /* Debug */,
+				A95244641AE0C95200AE34C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A95244651AE0C95200AE34C8 /* Build configuration list for PBXNativeTarget "PlacesOfInterest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95244661AE0C95200AE34C8 /* Debug */,
+				A95244671AE0C95200AE34C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A95244681AE0C95200AE34C8 /* Build configuration list for PBXNativeTarget "PlacesOfInterestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95244691AE0C95200AE34C8 /* Debug */,
+				A952446A1AE0C95200AE34C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FC44C21AE234FE009C5144 /* Build configuration list for PBXNativeTarget "PlacesOfInterest WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FC44C01AE234FE009C5144 /* Debug */,
+				A9FC44C11AE234FE009C5144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9FC44C31AE234FE009C5144 /* Build configuration list for PBXNativeTarget "PlacesOfInterest WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FC44BE1AE234FE009C5144 /* Debug */,
+				A9FC44BF1AE234FE009C5144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A952443E1AE0C95200AE34C8 /* Project object */;
+}
