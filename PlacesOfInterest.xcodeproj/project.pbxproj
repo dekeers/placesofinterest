@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A94487F41AE2F8B700D173BD /* poi_48.png in Resources */ = {isa = PBXBuildFile; fileRef = A94487EC1AE2F8B700D173BD /* poi_48.png */; };
+		A94487F51AE2F8B700D173BD /* poi_55.png in Resources */ = {isa = PBXBuildFile; fileRef = A94487ED1AE2F8B700D173BD /* poi_55.png */; };
+		A94487F61AE2F8B700D173BD /* poi_58.png in Resources */ = {isa = PBXBuildFile; fileRef = A94487EE1AE2F8B700D173BD /* poi_58.png */; };
+		A94487F71AE2F8B700D173BD /* poi_80.png in Resources */ = {isa = PBXBuildFile; fileRef = A94487EF1AE2F8B700D173BD /* poi_80.png */; };
+		A94487F81AE2F8B700D173BD /* poi_87.png in Resources */ = {isa = PBXBuildFile; fileRef = A94487F01AE2F8B700D173BD /* poi_87.png */; };
+		A94487F91AE2F8B700D173BD /* poi_88.png in Resources */ = {isa = PBXBuildFile; fileRef = A94487F11AE2F8B700D173BD /* poi_88.png */; };
+		A94487FA1AE2F8B700D173BD /* poi_172.png in Resources */ = {isa = PBXBuildFile; fileRef = A94487F21AE2F8B700D173BD /* poi_172.png */; };
+		A94487FB1AE2F8B700D173BD /* poi_196.png in Resources */ = {isa = PBXBuildFile; fileRef = A94487F31AE2F8B700D173BD /* poi_196.png */; };
 		A952444C1AE0C95200AE34C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A952444B1AE0C95200AE34C8 /* AppDelegate.swift */; };
 		A952444E1AE0C95200AE34C8 /* POIMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A952444D1AE0C95200AE34C8 /* POIMainViewController.swift */; };
 		A95244511AE0C95200AE34C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A952444F1AE0C95200AE34C8 /* Main.storyboard */; };
@@ -94,6 +102,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A94487EC1AE2F8B700D173BD /* poi_48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = poi_48.png; path = Images/Icons/poi_48.png; sourceTree = "<group>"; };
+		A94487ED1AE2F8B700D173BD /* poi_55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = poi_55.png; path = Images/Icons/poi_55.png; sourceTree = "<group>"; };
+		A94487EE1AE2F8B700D173BD /* poi_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = poi_58.png; path = Images/Icons/poi_58.png; sourceTree = "<group>"; };
+		A94487EF1AE2F8B700D173BD /* poi_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = poi_80.png; path = Images/Icons/poi_80.png; sourceTree = "<group>"; };
+		A94487F01AE2F8B700D173BD /* poi_87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = poi_87.png; path = Images/Icons/poi_87.png; sourceTree = "<group>"; };
+		A94487F11AE2F8B700D173BD /* poi_88.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = poi_88.png; path = Images/Icons/poi_88.png; sourceTree = "<group>"; };
+		A94487F21AE2F8B700D173BD /* poi_172.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = poi_172.png; path = Images/Icons/poi_172.png; sourceTree = "<group>"; };
+		A94487F31AE2F8B700D173BD /* poi_196.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = poi_196.png; path = Images/Icons/poi_196.png; sourceTree = "<group>"; };
 		A95244461AE0C95200AE34C8 /* PlacesOfInterest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlacesOfInterest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A952444A1AE0C95200AE34C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A952444B1AE0C95200AE34C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -171,6 +187,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A94487C91AE2F7C300D173BD /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				A94487EC1AE2F8B700D173BD /* poi_48.png */,
+				A94487ED1AE2F8B700D173BD /* poi_55.png */,
+				A94487EE1AE2F8B700D173BD /* poi_58.png */,
+				A94487EF1AE2F8B700D173BD /* poi_80.png */,
+				A94487F01AE2F8B700D173BD /* poi_87.png */,
+				A94487F11AE2F8B700D173BD /* poi_88.png */,
+				A94487F21AE2F8B700D173BD /* poi_172.png */,
+				A94487F31AE2F8B700D173BD /* poi_196.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
 		A952443D1AE0C95200AE34C8 = {
 			isa = PBXGroup;
 			children = (
@@ -326,6 +357,7 @@
 		A9FC44CC1AE237DE009C5144 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A94487C91AE2F7C300D173BD /* Icons */,
 				A9FC44CD1AE2382C009C5144 /* atm.pdf */,
 				A9FC44CE1AE2382C009C5144 /* bakery.pdf */,
 				A9FC44CF1AE2382C009C5144 /* bar.pdf */,
@@ -520,17 +552,25 @@
 				A9FC44E41AE2382C009C5144 /* hospital.pdf in Resources */,
 				A9FC44DC1AE2382C009C5144 /* bakery.pdf in Resources */,
 				A9FC44DF1AE2382C009C5144 /* campground.pdf in Resources */,
+				A94487FA1AE2F8B700D173BD /* poi_172.png in Resources */,
+				A94487F61AE2F8B700D173BD /* poi_58.png in Resources */,
 				A9FC44E31AE2382C009C5144 /* hair_care.pdf in Resources */,
 				A9FC44DB1AE2382C009C5144 /* atm.pdf in Resources */,
 				A9FC44DD1AE2382C009C5144 /* bar.pdf in Resources */,
 				A9FC44E81AE2382C009C5144 /* shopping_mall.pdf in Resources */,
+				A94487F81AE2F8B700D173BD /* poi_87.png in Resources */,
 				A9FC44E21AE2382C009C5144 /* gym.pdf in Resources */,
 				A9FC44B81AE234FE009C5144 /* Interface.storyboard in Resources */,
 				A9FC44BA1AE234FE009C5144 /* Images.xcassets in Resources */,
+				A94487F51AE2F8B700D173BD /* poi_55.png in Resources */,
 				A9FC44DE1AE2382C009C5144 /* cafe.pdf in Resources */,
 				A9FC44E71AE2382C009C5144 /* restaurant.pdf in Resources */,
 				A9FC44E51AE2382C009C5144 /* nav_arrow.pdf in Resources */,
+				A94487F91AE2F8B700D173BD /* poi_88.png in Resources */,
+				A94487F41AE2F8B700D173BD /* poi_48.png in Resources */,
+				A94487F71AE2F8B700D173BD /* poi_80.png in Resources */,
 				A9FC44E11AE2382C009C5144 /* gas_station.pdf in Resources */,
+				A94487FB1AE2F8B700D173BD /* poi_196.png in Resources */,
 				A9FC44E61AE2382C009C5144 /* question.pdf in Resources */,
 				A9FC44E01AE2382C009C5144 /* church.pdf in Resources */,
 			);
@@ -876,6 +916,7 @@
 				A9FC44C11AE234FE009C5144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9FC44C31AE234FE009C5144 /* Build configuration list for PBXNativeTarget "PlacesOfInterest WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -884,6 +925,7 @@
 				A9FC44BF1AE234FE009C5144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
